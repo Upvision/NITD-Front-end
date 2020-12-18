@@ -148,28 +148,28 @@ const metisMenu = [
 			{
 				"id": 1002,
 				"label": "Coding",
-				"to": "/",
+				"to": "/coding",
 				},
 			{
 				"id": 1003,
 				"label": "Robotics",
-				"to": "/"
+				"to": "/robotics"
 			},
 			{
 				"id": 1004,
 				"label": "S.W.A.T",
-				"to": "/ui-icons"
+				"to": "/swat"
 			},
 		]
 	},
 	{
-		"id": 1004,
+		"id": 1005,
 		"icon": "icon-diamond",
 		"label": "Cultural",
 		"to": "/",
 		content: [
 			{
-				"id": 1005,
+				"id": 1020,
 				"label": "Dance",
 				"to": "/ui-bootstrap"
 			},

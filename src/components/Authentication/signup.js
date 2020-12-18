@@ -17,7 +17,7 @@ export default class SignUp extends Component {
 						<div className="auth_brand">
 							<Link className="navbar-brand" to="/">
 								<img src="../assets/images/icon.svg" width="30" height="30" className="d-inline-block align-top mr-2" alt="Logo" />
-								Oculux</Link>
+								Upvison</Link>
 						</div>
 						<div className="card">
 							<div className="body">

@@ -20,7 +20,7 @@ const Dashboard12 = () => {
               <h1>Dashboard</h1>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="/">Oculux</a></li>
+                  <li className="breadcrumb-item"><a href="/">Upvison</a></li>
                   <li className="breadcrumb-item active" aria-current="page">Dashboard</li>
                 </ol>
               </nav>
