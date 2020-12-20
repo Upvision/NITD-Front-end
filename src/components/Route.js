@@ -76,6 +76,8 @@ import Dialogs from './Components/Dialogs';
 import ListGroup from './Components/ListGroup';
 import MediaObject from './Components/MediaObject';
 import Nestable from './Components/Nestable';
+import alumniHub from './Alumni/alumniHub';
+import job from './Alumni/job';
 
 const Routes = [
     {
@@ -84,6 +86,34 @@ const Routes = [
         exact: true,
         pageTitle: "Nestable",
         component: Nestable
+    },
+    {
+        path: "/alumni-hub",
+        name: 'Alumni',
+        exact: true,
+        pageTitle: 'Alumni-Hub',
+        component: alumniHub
+    },
+    {
+        path: "/alumni-hub/job",
+        name: 'Job',
+        exact: true,
+        pageTitle: 'Job',
+        component: job
+    },
+    {
+        path: "/alumni-hub/location",
+        name: 'Alumni Location',
+        exact: true,
+        pageTitle: 'Alumni Location',
+        component: job
+    },
+    {
+        path: "/alumni-hub/support",
+        name: 'Alumni Support',
+        exact: true,
+        pageTitle: 'Alumni Support',
+        component: job
     },
     {
         path: "/ui-media-object",

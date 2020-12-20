@@ -322,7 +322,7 @@ const metisMenu = [
 		"id": 1016,
 		"icon": "icon-puzzle",
 		"label": "Alumini Hub",
-		"to": "/"
+		"to": "/alumni-hub"
 	},
 	{
 		"id": 55,
