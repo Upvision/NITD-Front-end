@@ -78,6 +78,7 @@ import MediaObject from './Components/MediaObject';
 import Nestable from './Components/Nestable';
 import alumniHub from './Alumni/alumniHub';
 import job from './Alumni/job';
+import alumniLocation from './Alumni/AumniLocation/alumniLocation';
 
 const Routes = [
     {
@@ -106,7 +107,7 @@ const Routes = [
         name: 'Alumni Location',
         exact: true,
         pageTitle: 'Alumni Location',
-        component: job
+        component: alumniLocation
     },
     {
         path: "/alumni-hub/support",
