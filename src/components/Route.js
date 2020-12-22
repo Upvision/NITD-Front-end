@@ -40,6 +40,7 @@ import SimpleLine from './UI/SimpleLine';
 import Themify from './UI/Themify';
 import Bootstrap from './Components/Bootstrap';
 import Typography from './Components/Typography';
+import Spotlight from './Components/Spotlight';
 import RangeSliders from './Components/RangeSliders';
 import Tabs from './Components/Tabs';
 import ProgressBars from './Components/ProgressBars';
@@ -395,6 +396,13 @@ const Routes = [
         exact: true,
         pageTitle: "Typography",
         component: Typography
+    },
+    {
+        path: "/ui-spotlight",
+        name: 'Spotlight',
+        exact: true,
+        pageTitle: "Spotlight",
+        component: Spotlight
     },
     {
         path: "/ui-bootstrap",

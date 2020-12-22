@@ -236,7 +236,7 @@ const metisMenu = [
 			{
 				"id": 1008,
 				"label": "Spotlight",
-				"to": "/Spotlight"
+				"to": "/ui-spotlight"
 			},
 			// {
 			// 	"id": 1009,
