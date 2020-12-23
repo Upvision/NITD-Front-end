@@ -15,6 +15,7 @@ import Dashboard9 from './Dashboard/dashboard9';
 import Dashboard10 from './Dashboard/dashboard10';
 import Dashboard11 from './Dashboard/dashboard11';
 import Dashboard12 from './Dashboard/dashboard12';
+import Hostel from './Dashboard/hostel';
 import FormAdvanced from './Form/formAdvanced';
 import FormBasic from './Form/formsBasic';
 import FormCropping from './Form/formsCropping';
@@ -222,6 +223,7 @@ const Routes = [
         pageTitle: "Dashboard12",
         component: Dashboard12
     },
+    
     {
         path: "/task-board",
         name: 'Taskboard',
@@ -480,6 +482,13 @@ const Routes = [
         exact: true,
         pageTitle: "Inbox",
         component: Inbox
+    },
+    {
+        path: "/hostel-profile",
+        name: 'hostel-profile',
+        exact: true,
+        pageTitle: "Hostel",
+        component: Hostel
     },
     {
         path: "/app-contact2",

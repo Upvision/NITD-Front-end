@@ -92,6 +92,8 @@ class Menu extends Component {
 									<Dropdown.Menu>
 										<Link className="dropdown-item" to="/page-profile"><i className="icon-user"></i>My Profile</Link>
 										<Link className="dropdown-item" to="/app-inbox"><i className="icon-envelope-open"></i>Messages</Link>
+										<Link className="dropdown-item" to="/hostel-profile"><i className="icon-home"></i>Hostel</Link>
+
 										<Link className="dropdown-item" to="/"><i className="icon-settings"></i>Settings</Link>
 										<li className="divider" />
 										<Link className="dropdown-item" to="/login"><i className="icon-power"></i>Logout</Link>
