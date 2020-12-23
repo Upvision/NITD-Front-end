@@ -11,7 +11,7 @@ const Inbox = () => {
                             <h2>Inbox</h2>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
-                                    <li className="breadcrumb-item"><Link to="/">Oculux</Link></li>
+                                    <li className="breadcrumb-item"><Link to="/">Upvision</Link></li>
                                     <li className="breadcrumb-item"><Link to="/">App</Link></li>
                                     <li className="breadcrumb-item active" aria-current="page">Inbox</li>
                                 </ol>

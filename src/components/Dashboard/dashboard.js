@@ -18,8 +18,8 @@ const Dashboard = () => {
 						</nav>
 					</div>
 					<div className="col-md-6 col-sm-12 text-right hidden-xs">
-						<span className="btn btn-sm btn-primary mr-1" title="">Create Campaign</span>
-						<Link to="https://themeforest.net/item/oculux-bootstrap-4x-admin-dashboard-clean-modern-ui-kit/23091507" className="btn btn-sm btn-success" title="Themeforest"><i className="icon-basket"></i> Buy Now</Link>
+						<span className="btn btn-sm btn-primary mr-1" title="">Create Post</span>
+					
 					</div>
 				</div>
 			</div>

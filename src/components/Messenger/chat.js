@@ -11,16 +11,16 @@ const Messenger = () => {
                             <h2>Chat</h2>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
-                                    <li className="breadcrumb-item"><Link to="/">Oculux</Link></li>
+                                    <li className="breadcrumb-item"><Link to="/">Upvision</Link></li>
                                     <li className="breadcrumb-item"><Link to="/">App</Link></li>
                                     <li className="breadcrumb-item active" aria-current="page">Messages</li>
                                 </ol>
                             </nav>
                         </div>
-                        <div className="col-md-6 col-sm-12 text-right hidden-xs">
+                        {/* <div className="col-md-6 col-sm-12 text-right hidden-xs">
                             <Link to="/" className="btn btn-sm btn-primary mr-1" title="">Create Campaign</Link>
                             <Link to="https://themeforest.net/item/oculux-bootstrap-4x-admin-dashboard-clean-modern-ui-kit/23091507" className="btn btn-sm btn-success" title="Themeforest"><i className="icon-basket"></i> Buy Now</Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="row clearfix">
