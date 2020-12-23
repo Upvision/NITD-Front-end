@@ -15,7 +15,7 @@ export default class NotFound extends Component {
 				<div className="auth-main particles_js">
 					<div className="auth_div vivify popIn">
 						<div className="auth_brand">
-							<Link className="navbar-brand" to="/"><img src="../assets/images/icon.svg" width="30" height="30" className="d-inline-block align-top mr-2" alt="logo" />Oculux</Link>
+							<Link className="navbar-brand" to="/"><img src="../assets/images/icon.svg" width="30" height="30" className="d-inline-block align-top mr-2" alt="logo" />Upvison</Link>
 						</div>
 						<div className="card page-400">
 							<div className="body">
