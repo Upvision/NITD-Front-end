@@ -81,6 +81,8 @@ import Nestable from './Components/Nestable';
 import alumniHub from './Alumni/alumniHub';
 import job from './Alumni/job';
 import alumniLocation from './Alumni/AumniLocation/alumniLocation';
+import alumniSupport from './Alumni/AlumniSupport/alumniSupport';
+
 
 const Routes = [
     {
@@ -116,7 +118,7 @@ const Routes = [
         name: 'Alumni Support',
         exact: true,
         pageTitle: 'Alumni Support',
-        component: job
+        component: alumniSupport
     },
     {
         path: "/ui-media-object",
