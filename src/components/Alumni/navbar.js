@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, NavLink} from 'react-router-dom';
 import { toggleMegamenu, toggleSearchBar, toggleNotificationBar, setOffcanvas } from '../../actions/settingsAction';
+
 
 const Header = ({ toggleMegamenu, isMegaMenu, toggleNotificationBar, toggleSearchBar, setOffcanvas, offcanvas }) => {
 
@@ -143,9 +144,9 @@ const Header = ({ toggleMegamenu, isMegaMenu, toggleNotificationBar, toggleSearc
                             </li>
                             
                             {/* <li style={{ cursor: 'pointer' }}><span onClick={() => toggleMegamenu(!isMegaMenu)} className={`megamenu_toggle icon-menu`} title="Mega Menu">Mega</span></li> */}
-                            <li className="p_social"><Link to="/alumni-hub/support" className="social icon-menu" title="News">Alumni Support</Link></li>
-                            <li className="p_news"><Link to="/alumni-hub/job" className="news icon-menu" title="News">Job Listing/Referral</Link></li>
-                            <li className="p_blog"><Link to="/alumni-hub/location" className="blog icon-menu" title="Blog">Alumni on Map</Link></li>
+                            <li className="p_social"><NavLink to="/alumni-hub/support" activeStyle={{color: 'white'}} className="social icon-menu"  title="News">Alumni Support</NavLink></li>
+                            <li className="p_news"><NavLink to="/alumni-hub/job" activeStyle={{color: 'white'}} className="news icon-menu" title="News">Job Listing/Referral</NavLink></li>
+                            <li className="p_blog"><NavLink to="/alumni-hub/location" activeStyle={{color: 'white'}} className="blog icon-menu" title="Blog">Alumni on Map</NavLink></li>
                         </ul>
                     </div>
 
