@@ -76,6 +76,7 @@ import Dialogs from './Components/Dialogs';
 import ListGroup from './Components/ListGroup';
 import MediaObject from './Components/MediaObject';
 import Nestable from './Components/Nestable';
+import Register from './Authentication/register';
 
 const Routes = [
     {
@@ -602,6 +603,13 @@ const Routes = [
         exact: true,
         pageTitle: "Tables",
         component: Signup
+    },
+    {
+        path: "/register",
+        name: 'register',
+        exact: true,
+        pageTitle: "Tables",
+        component: Register
     },
     {
         path: "/forgotpassword",

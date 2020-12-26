@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+
 export default class SignUp extends Component {
 	render() {
 		return (
@@ -29,11 +30,13 @@ export default class SignUp extends Component {
 									<div className="form-group">
 										<input type="password" className="form-control round" placeholder="Password" />
 									</div>
-									<button type="submit" className="btn btn-primary btn-round btn-block">Register</button>
+									<Link to="/register">
+										<button type="submit" className="btn btn-primary btn-round btn-block">Register</button>
+									</Link>
 								</form>
 								<div className="separator-linethrough"><span>OR</span></div>
-								<button className="btn btn-round btn-signin-social"><i className="fa fa-facebook-official facebook-color"></i> Sign in with Facebook</button>
-								<button className="btn btn-round btn-signin-social"><i className="fa fa-twitter twitter-color"></i> Sign in with Twitter</button>
+								<button className="btn btn-round btn-signin-social"><i className="fa fa-google google-color"></i> Sign in with Google</button>
+								<button className="btn btn-round btn-signin-social"><i className="fa fa-linkedin linkedin-color"></i> Sign in with LinkedIn</button>
 							</div>
 						</div>
 					</div>

@@ -355,6 +355,11 @@ const metisMenu = [
 				"label": "Maintenance",
 				"to": "/maintenance"
 			},
+			{
+				"id":61,
+				"label": "Register",
+				"to": "/register"
+			}
 		]
 	},
 	{

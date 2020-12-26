@@ -7,6 +7,7 @@ import SignUp from './components/Authentication/signup';
 import ForgotPassword from './components/Authentication/forgotpassword';
 import NotFound from './components/Authentication/404';
 import Maintenance from './components/Authentication/maintenance';
+import Register from './components/Authentication/register'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
 						<Route path="/forgotpassword" component={ForgotPassword} />
 						<Route path="/notfound" component={NotFound} />
 						<Route path="/maintenance" component={Maintenance} />
+						<Route path="/register" component={Register} />
 						<Route component={Layout} />
 					</Switch>
 				</Router>

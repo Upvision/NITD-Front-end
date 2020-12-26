@@ -23,6 +23,7 @@
     "react-dom": "^16.13.1",
     "react-draft-wysiwyg": "^1.14.5",
     "react-dropzone-component": "^3.2.0",
+    "react-google-button": "^0.7.1",
     "react-image-crop": "^8.6.5",
     "react-jvectormap": "0.0.16",
     "react-metismenu": "^1.4.0",

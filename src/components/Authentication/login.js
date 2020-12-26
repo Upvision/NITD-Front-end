@@ -25,11 +25,11 @@ export default class Login extends Component {
 								<form className="form-auth-small m-t-20" action="/">
 									<div className="form-group">
 										<label htmlFor="signin-email" className="control-label sr-only">Email</label>
-										<input type="email" className="form-control round" id="signin-email" defaultValue="user@domain.com" placeholder="Email" />
+										<input type="email" className="form-control round" id="signin-email" placeholder="Email" required/>
 									</div>
 									<div className="form-group">
 										<label htmlFor="signin-password" className="control-label sr-only">Password</label>
-										<input type="password" className="form-control round" id="signin-password" defaultValue="thisisthepassword" placeholder="Password" />
+										<input type="password" className="form-control round" id="signin-password" placeholder="Password" required />
 									</div>
 									<div className="form-group clearfix">
 										<label className="fancy-checkbox element-left">
